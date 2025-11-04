@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class AnimalBehavior : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public Animator animator;
+    public bool isDayActive;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (isDayActive)
+            animator.Play("Walk");
+        else
+            animator.Play("Sleep");
     }
 }
