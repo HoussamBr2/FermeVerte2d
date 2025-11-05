@@ -2,6 +2,17 @@ using UnityEngine;
 
 public class AnimalBehavior : MonoBehaviour
 {
+<<<<<<< HEAD
+    public Animator animator;
+    public bool isDayActive;
+
+    void Update()
+    {
+        if (isDayActive)
+            animator.Play("Walk");
+        else
+            animator.Play("Sleep");
+=======
     // === State Management ===
     private enum AnimalState { Wandering, Sleeping }
     private AnimalState currentState = AnimalState.Wandering;
@@ -190,6 +201,7 @@ public class AnimalBehavior : MonoBehaviour
         Vector2 randomOffset = Random.insideUnitCircle * wanderingRadius;
         currentTarget = startPosition + randomOffset;
         targetTimer = changeTargetInterval;
+>>>>>>> 9d4174ce1b7ab702d8d064d3f13d9698563e7308
     }
 }
 
