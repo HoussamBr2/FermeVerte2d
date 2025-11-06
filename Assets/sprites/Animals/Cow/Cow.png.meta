@@ -112,10 +112,10 @@ TextureImporter:
       name: Cow_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 36
-        width: 26
-        height: 23
+        x: 5
+        y: 37
+        width: 24
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: Cow_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 36
-        width: 26
-        height: 22
+        x: 37
+        y: 37
+        width: 24
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,10 +156,10 @@ TextureImporter:
       name: Cow_2
       rect:
         serializedVersion: 2
-        x: 3
-        y: 4
-        width: 27
-        height: 24
+        x: 4
+        y: 5
+        width: 25
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +178,10 @@ TextureImporter:
       name: Cow_3
       rect:
         serializedVersion: 2
-        x: 35
-        y: 4
-        width: 27
-        height: 24
+        x: 36
+        y: 5
+        width: 25
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fe10e4758bd6f404a9e2d430a32e3434
     internalID: 0
     vertices: []
     indices: 
