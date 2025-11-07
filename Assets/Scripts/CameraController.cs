@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+<<<<<<< HEAD
     // === Zoom Settings ===
     [Header("Zoom Settings")]
     public float zoomSpeed = 5f;
@@ -97,6 +98,22 @@ public class CameraController : MonoBehaviour
             
             mainCamera.transform.position = targetPosition;
         }
+=======
+    public float speed = 5f;
+    public float zoomSpeed = 2f;
+    Camera cam;
+
+    void Start() => cam = GetComponent<Camera>();
+
+    void Update()
+    {
+        float moveX = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+        float moveY = Input.GetAxis("Vertical") * speed * Time.deltaTime;
+        transform.Translate(new Vector3(moveX, moveY, 0));
+
+        cam.orthographicSize -= Input.mouseScrollDelta.y * zoomSpeed;
+        cam.orthographicSize = Mathf.Clamp(cam.orthographicSize, 3f, 10f);
+>>>>>>> 8bc831299161ad3aa5f47b3508df185dd8833585
     }
 }
 
